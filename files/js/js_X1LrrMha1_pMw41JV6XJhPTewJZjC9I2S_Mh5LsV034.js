@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 		Drupal.settings.mobile = true;
 		$('body').addClass('layout-mobile');
 		if (!$('body').hasClass('layout-page') && !$('body').hasClass('page-mobile')) {
-			window.location = 'http://kemchongnang.mapleafhangxachtay.com/mobile.html';;
+			window.location = 'http://kemchongnang.mapleleafhangxachtay.com/mobile.html';;
 		}
 	}
 	
