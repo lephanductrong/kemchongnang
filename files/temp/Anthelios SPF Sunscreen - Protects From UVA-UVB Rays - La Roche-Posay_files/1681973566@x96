@@ -1,4 +1,0 @@
-/* B3/LightningBolt_Container_Data_Default - LightningBolt_Container_Data_Default */
-var migID = '0000';
-try { lbLoad(migID, 'r|g', ''); }
-catch (e) { if (isInDebug) { console.log(e); } }
