@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 		Drupal.settings.mobile = true;
 		$('body').addClass('layout-mobile');
 		if (!$('body').hasClass('layout-page') && !$('body').hasClass('page-mobile')) {
-			window.location = Drupal.settings.mobile_url;
+			//window.location = Drupal.settings.mobile_url;
 		}
 	}
 	
