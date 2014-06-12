@@ -1069,7 +1069,8 @@ if(f[a]("text")){for(g.text=f.text;h.firstChild;)h.removeChild(h.firstChild);for
 		
 		$('#father_advice').attr('data-'+(47000+multiple), 'left:120%;');
 		$('#father_advice').attr('data-end', 				'left:10%;');
-		
+		$('#comment_box').attr('data-'+(47000+multiple), 'left:120%;');
+		$('#comment_box').attr('data-end', 				'left:35%;');
 		$('#the_end, #the_end_text').attr('data-start', 				'opacity:0;right:-55%;');
 		$('#the_end, #the_end_text').attr('data-'+(46900+multiple), 	'opacity:0;right:-55%;');
 		$('#the_end, #the_end_text').attr('data-'+(47000+multiple), 	'opacity:1;right:-55%;');
