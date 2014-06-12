@@ -752,7 +752,10 @@ if(f[a]("text")){for(g.text=f.text;h.firstChild;)h.removeChild(h.firstChild);for
 		
 		$('#big_father').attr('data-'+(46000+multiple), 'left:120%;');
 		$('#big_father').attr('data-end', 				'left:-60%;');
-	
+		
+		$('#father_advice').attr('data-'+(47000+multiple), 'left:120%;');
+		$('#father_advice').attr('data-end', 				'left:10%;');
+
 		$('#comment_box').attr('data-'+(49000+multiple), 'left:120%;');
 		$('#comment_box').attr('data-end', 				'left:32%;');
 
