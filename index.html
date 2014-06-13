@@ -198,7 +198,19 @@
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
-  
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '132254216859142',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+
+        
+      };
+
+      
+    </script>
   <!-- SHARE GOOGLEPLUS -->
   <script type="text/javascript">
     window.___gcfg = {lang: "en-US"};
